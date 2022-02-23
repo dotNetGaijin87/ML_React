@@ -1,0 +1,24 @@
+.customDropzoneArea {
+    /*    border: 1px solid #4ca0fa;*/
+    border-radius: 0.25rem;
+    color: #828d9c;
+    cursor: pointer;
+    width: 300px;
+    height: 55px !important;
+    font-size: 1rem;
+    padding: 0.3em 0.65em;
+    transition: box-shadow 300ms ease-in-out;
+    background-color: #22272e;
+}
+
+    .customDropzoneArea:hover, .customDropzoneArea:focus {
+        outline: 0;
+    }
+
+.customDropzoneArea > label{
+    width: 100%;
+}
+
+    .customDropzoneArea > label > label {
+        color: #4ca0fa;
+    }

@@ -1,0 +1,104 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #ebebeb;
+}
+h1, h2, h3, h4, p, i, label, select {
+    color: #ebebeb;
+}
+
+h1,h2,h3 {
+    top: 30px;
+}
+
+
+body {
+    background-color: #22272e;
+}
+
+code {
+  color: #E01A76;
+}
+
+ul {
+    color: #eed9b7;
+}
+
+
+.form-control {
+    display: unset;
+    color: transparent;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+   
+}
+
+.custom-control {
+    padding: 12px 20px;
+    width: 300px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 1em;
+    color: #fdfdfd;
+    background-color: #22272e;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+    .custom-control:hover {
+        border-color: #4ca0fa;
+    }
+
+
+
+.custom-frame {
+    background-color: #373e47;
+    border: 1px solid #444c56;
+    border-radius: 0.25rem;
+    margin: 20px;
+    padding: 0em 2.0em;
+ 
+}
+
+    .custom-frame > input {
+        display: none;
+    }
+
+.custom-form-control {
+    background-color: #22272e;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+
+.chart-container {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 650px;
+    /*    overflow-x: scroll;*/
+}
+
+.recharts-default-tooltip {
+    background-color: #222b3c !important;
+    border: 0px solid red !important;
+    border-radius: 6px;
+}
+
+/* 
+@media screen and (max-width: 1920px) {
+    .container {
+        max-width: 1700px;
+    }
+}*/
+
+
+.MuiGrid-container {
+   /* border: 1px solid #6c757d;*/
+}

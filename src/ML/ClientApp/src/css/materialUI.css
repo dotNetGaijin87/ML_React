@@ -1,0 +1,35 @@
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    transition: all 400ms ease-in-out;
+}
+
+
+
+
+.MuiMenu-list li {
+    transition: all 300ms ease-in-out;
+}
+
+.MuiPaper-root {
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.MuiTableCell-root {
+    border: 1px solid transparent;
+}
+
+.MuiTable-root {
+    background-color: #22272e;
+    border: 2px solid transparent;
+}
+.css-1ygcj2i-MuiTableCell-root {
+    color: #fff !important;
+    font-size: 1.4rem !important;
+    background-color: #373e47;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+    color: #fff !important;
+    font-size: 1.2rem !important;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.1);
+}

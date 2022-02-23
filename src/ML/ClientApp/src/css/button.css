@@ -1,0 +1,30 @@
+/*.custom-btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #4ca0fa;
+    border-radius: 0.25rem;
+    color: #4ca0fa;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1em 2.0em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    transition: box-shadow 300ms ease-in-out;
+}
+
+    .custom-btn:hover, .cutom-btn:focus {
+        color: #4ca0fa;
+        outline: 0;
+        box-shadow: 0 0 3px 3px #4ca0fa inset;
+    }
+*/

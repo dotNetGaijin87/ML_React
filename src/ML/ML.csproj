@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>e2d453d7-962f-4840-b6df-5a680b7fafac</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AIModels\AnomalyDetection\**" />
+    <Compile Remove="AIModels\Regression\新しいフォルダー\**" />
+    <Compile Remove="TrainingData\Regression\FastForest\新しいフォルダー\**" />
+    <Content Remove="AIModels\AnomalyDetection\**" />
+    <Content Remove="AIModels\Regression\新しいフォルダー\**" />
+    <Content Remove="TrainingData\Regression\FastForest\新しいフォルダー\**" />
+    <EmbeddedResource Remove="AIModels\AnomalyDetection\**" />
+    <EmbeddedResource Remove="AIModels\Regression\新しいフォルダー\**" />
+    <EmbeddedResource Remove="TrainingData\Regression\FastForest\新しいフォルダー\**" />
+    <None Remove="AIModels\AnomalyDetection\**" />
+    <None Remove="AIModels\Regression\新しいフォルダー\**" />
+    <None Remove="TrainingData\Regression\FastForest\新しいフォルダー\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ML.AiModels\ML.AiModels.csproj" />
+    <ProjectReference Include="..\ML.Services\ML.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AIModels\Regression\Sdca\" />
+    <Folder Include="Models\AnomalyDetection\" />
+    <Folder Include="Models\Forecasting\" />
+    <Folder Include="Models\Regression\" />
+    <Folder Include="TrainingData\Regression\FastForest\" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" clientapp_4package_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>
